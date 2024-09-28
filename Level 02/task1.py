@@ -1,0 +1,5 @@
+print("giorgi varazashvili")
+print("irakli kvinichia")
+print("andria alavidze")
+print("barbare barbare")
+print("sandro zabakhidze")
