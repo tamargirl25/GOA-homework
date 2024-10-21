@@ -18,12 +18,12 @@ print("The arithmetic average of the numbers is: ", average)
 
 #4 კომენტარის სახით ახსენით რა არის case sansitive + რა არის snake case.
 # case sansitive ნიშნავს დიდი და პატარა დაწერილ აცოებს ანეჭიბა მნიშვნელობას.
-# snake case არის გამოყენების კონვენცია გამოთვლებში, ცვლადების და ქვეპროგრამის სახელებისთვის და ფაილების სახელებისთვის.
+# snake case არის ცვლადის სახელის დაწერის წესი, სადაც პატარა ასოებით სწერთ და ქვედატირეთი ვყოფთ.
 
 #5 დაუშვით 5 შეცდომა და გვერდით კომენტარის სახით მიუწერეთ სწორი ვერსია (ახსენით რა არის debugging)
-print("The arithmetic average of the numbers is: ", Average)# ჩემს მიერ შექმნილი ცვლადი წერია არასწორად.
-age=(input("enter your age: "))# type არ არის მითითებული.
-name=(input(enter your name: ))# ფრჩხილებში არ არის პრჭყალები.
-number1=int(("enter your first number: "))# input აკლია.
-number5int(input("enter your fifth number: "))# = აკლია.
+#print("The arithmetic average of the numbers is: ", Average)# ჩემს მიერ შექმნილი ცვლადი წერია არასწორად.
+#age=(input("enter your age: "))# type არ არის მითითებული.
+#name=(input(enter your name: ))# ფრჩხილებში არ არის პრჭყალები.
+#number1=int(("enter your first number: "))# input აკლია.
+#number5int(input("enter your fifth number: "))# = აკლია.
 # debugging არის შეცდომის ძირეული მიზეზის აღმოჩენის და შეცდომების შესაძლო გამოსწორების პროცესი.
