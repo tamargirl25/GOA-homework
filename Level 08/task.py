@@ -1,21 +1,32 @@
 #1)გააკეთეთ ყველა იმ შედარების ოპერატორზე 3-3 მაგალითი რაც ვისწავლეთ.
-#and ოპერატორის შემთხვევაში უნდა კმაყოფილდეს ყველა პირობა.
-print(True and False) #F
-print(False and True) #F
-print(False and False) #F
-print(True and True) #T
+print(5 == 5)
+print("hello" == "world")
+print(True == False)
 
-#or ოპერატორის დროს თუ კმაყოფილდება ერთერთი პირობა, მაშინ მთლიანი გამოსახულების შედეგი = true
-print(True or False) #T
-print(False or True) #T
-print(True or True) #T
-print(False or False) #F
+print(10 != 5)
+print("apple" != "banana")
+print(4 != 4)
+
+print(7 > 3)
+print(100 > 50)
+print(-5 > -10)
+
+print(3 < 7)
+print(0 < 10)
+print(-1 < 5)
+
+print(10 >= 10)
+print(15 >= 10)
+print(-5 >= -10)
+
+print(5 <= 5)
+print(3 <= 7)
+print(0 <= 5)
 
 #2)მომხმარებელს შემოატანინეთ მისი საყვარელი რიცხვი და გაიგეთ უდრის თუ არა მისი საყვარელი რიცხვი თქვენს საყვარელ რიცხვს.
-userNumber=int(input("enter your fovrite number: "))
-myNumber=7
-result=userNumber == myNumber
-print(result)
+my_favorite_number = 7
+user_favorite_number = int(input("Enter your favorite number: "))
+print(user_favorite_number == my_favorite_number)
 
 #3)True or False and 5 > 3 or "name" == "name" and 123 == "123" and 5 >= 5 <--- გაიგეთ რას გამოიტანს ეს კოდი და ახსენით რატომ.
 print(True or False and 5 > 3 or "name" == "name" and 123 == "123" and 5 >= 5)
@@ -24,13 +35,10 @@ print(True or False and 5 > 3 or "name" == "name" and 123 == "123" and 5 >= 5)
 
 #4)მომხმარებელს შემოატანინეთ მისი ასაკი და მისი გვარი და შეამოწმეთ
 #თუ ასაკი მეტი ან ტოლი იქნება 18ის ან მისი გვარი ტოლი იქნება თქვენი გვარის.
-age = int(input("Please enter your age: "))
-last_name = input("Please enter your last name: ")
-
-if age >= 18 or last_name == "YourLastName":
-    print("Condition met.")
-else:
-    print("Condition not met.")
+my_last_name = "nanuashvili"
+user_age = int(input("Enter your age: "))
+user_last_name = input("Enter your last name: ")
+print(user_age >= 18 or user_last_name == my_last_name)
 
 #5)ახსენით რა არის ალგორითმი (მოიყვანეთ რეალური ცხოვრების 3 მაგალითი).
 #ალგორითმი არის პროცესი ან მოქმედებების თანმიმდევრობა, რომელიც გამოყენებულია კონკრეტული პრობლემის გადაჭრისთვის ან მიზნის 
@@ -46,3 +54,6 @@ else:
 
 #8)მომხმარებელს შემოატანინეთ 5 რიცხვი, დაითვალეთ მათი საშუალო არითმეტიკული
 #და გაიგეთ თუ მათი საშუალო არითმეტიკული ნაკლები იქენება პირველი და ბოლო რიცხვის ნამრავლზე.
+numbers = [int(input("Enter number: ")) for _ in range(5)]
+average = sum(numbers) / 5
+print(average < (numbers[0] * numbers[-1]))
