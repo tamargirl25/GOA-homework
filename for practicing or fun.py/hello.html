@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+        }
+        /* Header */
+        header {
+            background-color: #1877f2;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header input {
+            padding: 5px;
+            border: none;
+            border-radius: 4px;
+            width: 300px;
+        }
+        header button {
+            background-color: #42b72a;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        /* Navigation */
+        nav {
+            background-color: white;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        nav a {
+            text-decoration: none;
+            color: #1877f2;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        /* Content */
+        main {
+            display: flex;
+            padding: 20px;
+        }
+        /* Sidebar */
+        .sidebar {
+            width: 25%;
+            padding: 10px;
+        }
+        .content {
+            width: 50%;
+            padding: 10px;
+        }
+        .post {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1877f2;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Facebook</h1>
+        <input type="text" placeholder="Search...">
+        <button>Login</button>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Friends</a>
+        <a href="#">Messages</a>
+        <a href="#">Notifications</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h3>Sidebar</h3>
+            <ul>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Groups</a></li>
+                <li><a href="#">Events</a></li>
+            </ul>
+        </div>
+        
+        <!-- Content -->
+        <div class="content">
+            <div class="post">
+                <h3>User Name</h3>
+                <p>This is a sample post. Welcome to Facebook clone!</p>
+            </div>
+            <div class="post">
+                <h3>Another User</h3>
+                <p>Another sample post for demonstration.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        © 2024 Facebook Clone
+    </footer>
+</body>
+</html>

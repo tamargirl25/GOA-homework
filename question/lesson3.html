@@ -1,0 +1,93 @@
+<!--3-->
+<!--3)შექმენით ახალი ამბების მსგავსი საიტი: (გამოიყენეთ <article> 
+(ახალი ამბავი) / <aside> (ამ ახალ ამბავთან კავშირში მყოფი ახალი ამბავი) / <section> (ავტორის შესახებ ბიოგრაფია)-->
+    <!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>დღის ახალი ამბები</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+    }
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+    article {
+      flex: 70%;
+      margin: 10px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+    aside {
+      flex: 25%;
+      margin: 10px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #f0f0f0;
+    }
+    section {
+      padding: 15px;
+      margin-top: 20px;
+      border-top: 2px solid #ccc;
+    }
+    h1, h2, h3 {
+      margin: 0;
+      padding-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>დღის ახალი ამბები</h1>
+    <nav>
+      <a href="#home" style="color: #fff; margin: 0 10px;">მთავარი</a>
+      <a href="#news" style="color: #fff; margin: 0 10px;">სიახლეები</a>
+      <a href="#contact" style="color: #fff; margin: 0 10px;">კონტაქტი</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>კლიმატის ცვლილების ახალი გამოწვევები</h2>
+      <p>გლობალური კლიმატის ცვლილებები სულ უფრო მწვავე შედეგებს იწვევს. 
+      მეცნიერები აღნიშნავენ, რომ საჭირო არის უფრო სწრაფი და სერიოზული რეაგირება...</p>
+      <p>დაწვრილებით წაიკითხეთ <a href="#">აქ</a>.</p>
+    </article>
+
+    <aside>
+      <h3>დაკავშირებული სიახლეები:</h3>
+      <ul>
+        <li><a href="#">ეკოლოგიური ინიციატივების ახალი პროექტი</a></li>
+        <li><a href="#">მზის ენერგიის გამოყენება სოფლებში</a></li>
+        <li><a href="#">გლობალური ფორუმი კლიმატზე</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <section>
+    <h2>ავტორის ბიოგრაფია</h2>
+    <p>ლაშა ზურაბაშვილი არის ჟურნალისტი, რომელიც სპეციალიზირებულია გარემოს დაცვაზე და კლიმატურ საკითხებზე. მას აქვს 15-წლიანი გამოცდილება და არაერთი საერთაშორისო ჯილდო...</p>
+  </section>
+
+  <footer>
+    <p>© 2024 დღის ახალი ამბები. ყველა უფლება დაცულია.</p>
+    <p>დაგვიკავშირდით: info@news.ge</p>
+  </footer>
+</body>
+</html>
