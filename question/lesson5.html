@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- tr - table row(ცხრილის რიგი) -->
+        <!-- th - table head(ცხრილის სათაური) -->
+        <!-- td - table data(ცხრილის მონაცემი) -->
+        <!-- thead - table head(ცხრილის თავი). კონტეინერ ელემენტი, სადაც თავს ვუყრით ცხრილის სათაურებს -->
+        <!-- tbody - table body(ცხრილის ტანი). კონტეინერ ელემენტი, სადაც მოვათავსებთ ცხრილის დანარჩენ ინფორმაციას -->
+
+        <!-- rowspan, colspan -->
+        <table border="5">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Pass</th>
+                    <th>age</th>
+                    <th>myAge</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nika</td>
+                    <td>nika@gmail.com</td>
+                    <td>1234</td>
+                    <td rowspan="3" colspan="2">25</td>
+                </tr>
+                <tr>
+                    <td>Vano</td>
+                    <td>vano@gmail.com</td>
+                    <td>123</td>
+                </tr>
+                <tr>
+                    <td>Luka</td>
+                    <td>luka123@gmail.com</td>
+                    <td>12345678</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Table foot</td>
+                    <td colspan="3" rowspan="2">sidjsuijadjasd</td>
+                </tr>
+                <tr>
+                    <td colspan="2">iasojfdosjdf</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
